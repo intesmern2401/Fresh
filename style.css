@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ============
+common css start
+============ */
+.container{
+    width: 1320px;
+    margin: auto;
+
+}
+.box{
+    display: flex;
+    
+    
+
+}
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ============
+common css end
+============ */
+
+
+
+/* ======================
+ navber part start
+===================== */
+nav{
+    background: #FAE3B6;
+    padding: 50px 0px;
+    
+}
+.logo_prat{
+    width: 20%;
+    
+}
+.menuber_part{
+    width: 50%;
+   
+}
+.button_part{
+    width: 30%;
+
+    text-align: right;
+
+   
+}
+.navber ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 55px;
+    align-items: center;
+    height: 100%;
+   
+    color: #050505;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+   
+    
+    
+
+}
+
+.button_part a{
+    background: #FAE3B6;
+    padding: 10px 28px;
+    border: 1px solid #908d8d;
+    border-radius: 10px;
+    
+    color: #050505;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    transition: .4s;
+   
+
+   
+}
+.ancor{
+    margin-right: 10px;
+}
+.button_part a:hover{
+    background: #FDBB57;
+}
+
+
+
+/* ======================
+ navber part end
+===================== */
+/* ======================
+ banner part start
+===================== */
+.banner{
+    background: #FAE3B6;
+    padding: 100px 0px;
+
+}
+ .banner .left{
+    width: 50%;
+ 
+
+ }
+ .banner .right{
+    width: 50%;
+    
+
+ }
+ .banner .left h1{
+    font-size: 64px;
+    font-weight: 500;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    width: 535px;
+   
+ }
+ .banner .left p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    width: 531px;
+    margin-top: 30px;
+    margin-bottom: 76px;
+ }
+
+ .banner a{
+    background: black;
+    padding: 25px 91px;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    transition: .4s;
+    border: 1px solid transparent;
+    
+
+ }
+ .banner a:hover{
+    background: transparent;
+    border-color: black;
+    color: #000000;
+ }
+/* ======================
+ banner part end
+===================== */
+/* ======================
+ collection part start
+===================== */
+.collection{
+    padding-top: 217px;
+}
+ .collection h2{
+    font-size: 64px;
+    font-family: "Frank Ruhl Libre", serif;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+   
+ }
+
+ .collection .box{
+    justify-content: space-between;
+    padding-top: 50px;
+ }
+ .collection .collection_card{
+    width: 355px;
+    height: 402px;
+    border-radius: 20px;
+    background: red;
+    position: relative;
+    overflow: hidden;
+    
+ }
+
+ .collection .collection_card .overly{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,0.0);
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding-top: 300px;
+    padding-left: 15px;
+    transition: .2s;
+ }
+ .collection .collection_card img{
+    width: 100%;
+    height: 100%;
+   
+ }
+
+ .collection .collection_card a{
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    background: white;
+    padding: 9px 108px;
+    border-radius: 20px;
+ }
+ .collection .collection_card:hover .overly{
+    top:0px
+
+
+ }
+
+/* ======================
+ collection part end
+===================== */
+/* ======================
+ best part start
+===================== */
+.best{
+    padding-top:266px;
+}
+.best .left{
+    width: 50%;
+
+}
+.best .right{
+    width: 50%;
+    padding-left: 128px;
+    padding-top: 78px;
+ 
+}
+.best h2{
+    font-size: 64px;
+    font-weight: 700;
+    color: #000000;
+    font-family: "Frank Ruhl Libre", serif;
+    
+   
+}
+.best p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    font-family: "Frank Ruhl Libre", serif;
+    width: 443px;
+    padding-top: 60px;
+   
+}
+/* ======================
+ best part end
+===================== */
+
